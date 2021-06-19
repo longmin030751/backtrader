@@ -25,7 +25,6 @@ import sys
 
 
 try:
-    %matplotlib inline
     import matplotlib
 except ImportError:
     raise ImportError(
